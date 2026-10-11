@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/dev-maz/todoServer/todo"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -11,7 +12,6 @@ import (
 	"os"
 	"strings"
 	"testing"
-	"todo"
 )
 
 func setupAPI(t *testing.T) (string, func()) {

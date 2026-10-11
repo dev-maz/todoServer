@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
+	"github.com/dev-maz/todoServer/todo"
 	"time"
-	"todo"
 )
 
 type todoResponse struct {

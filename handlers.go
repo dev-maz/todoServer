@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/dev-maz/todoServer/todo"
 	"net/http"
 	"strconv"
 	"sync"
-	"todo"
 )
 
 var (
